@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvdisplay"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/et"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="#00BCD4"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="12"
+        android:textColor="@color/black"
+        android:hint="How much does this cost"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+        android:id="@+id/et2"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:background="#00BCD4"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="sell prise"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+
+
+</LinearLayout>
