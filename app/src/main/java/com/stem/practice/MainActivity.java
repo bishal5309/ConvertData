@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btn.setOnClickListener(view -> {
+            tvdisplay.setVisibility(View.VISIBLE);
            String buypriseInput = et.getText().toString().trim();
            String sellpriseInput = et2.getText().toString().trim();
 
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
+//---------------------------------------------------------------------------------------------------//
 
 
 
